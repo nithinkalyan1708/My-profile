@@ -1,0 +1,142 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id='title'>Feedback Survey</h1>
+  <p id="description">Help us improve by sharing your thoughts!</p>
+  <form id="survey-form">
+    <div class="form-group">
+      <label for="name" id="name-label">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label for="email" id="email-label">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+      <label for="number" id="number-label">Rating (1-5):</label>
+      <input type="number" id="number" name="number" min="1" max="5" placeholder="Enter a number between 1 and 5">
+    </div>
+    <div class="form-group">
+      <label for="dropdown" id="dropdown-label">How did you find us?</label>
+      <select id="dropdown" name="source">
+        <option value="website">Website</option>
+        <option value="advertisement">Advertisement</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>What is your favorite feature?</label>
+      <input type="radio" id="feature1" name="favorite" value="feature1">
+      <label for="feature1">Feature 1</label>
+      <input type="radio" id="feature2" name="favorite" value="feature2">
+      <label for="feature2">Feature 2</label>
+      <input type="radio" id="feature3" name="favorite" value="feature3">
+      <label for="feature3">Feature 3</label>
+    </div>
+    <div class="form-group">
+      <label>What improvements can we make?</label>
+      <label>What features do you like?</label>
+      <input type="checkbox" id="featureA" name="features" value="featureA">
+      <label for="featureA">Feature A</label>
+      <input type="checkbox" id="featureB" name="features" value="featureB">
+      <label for="featureB">Feature B</label>
+      </div>
+      <textarea id="comments" name="comments" rows="4" placeholder="Share your suggestions"></textarea>
+    </div>
+    <button type="submit" id="submit">Submit Feedback</button>
+  </form>
+</body>
+</html>
+              
+
+
+
+
+
+
+
+        
+
+         
+
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  color: #888;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+
+** end of undefined **
+
