@@ -1,0 +1,64 @@
+** start of undefined **
+
+<html>
+  <head>
+    <title> S.S Rajamouli </title>
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title"> S.S Rajamouli </h1>
+    <div>
+    <p> A master in making larger than life films.</p>
+    </div>
+    <main id="main">
+      <div id="img-div">
+        <img id="image" src = "https://static.toiimg.com/thumb/msid-77249613,width-1070,height-580,imgsize-180420,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"</img>
+        
+
+        <figcaption id="img-caption"> Rajamouli with his family </figcaption>
+        <p id="tribute-info"> Here is a timeline of Rajamouli's Journey </p>
+        <ul>
+          <li> <b>1973</b>-Born in Raichur</li>
+          <li> <b>1977</b>-Moved back to Kovvur</li>
+          <li> <b> 1999</b>- Directs Santhi Nivasam,a T.V Serial </li>
+          <li><b> 2001</b>- Student No-1,his first debut film as a director, emerges as a huge success and a huge breakthrough to NTR Jr as an actor</li>
+          <li><b>2003</b>- Simhadri an action entertainer becomes industry hit and solidifies NTR Jr stardom.
+          <li><b>2004</b>- Sye, a sports drama releases and becomes a huge success.</li>
+          <li><b>2005</b>- Chatrapathi,a mass entertainer becomes one of the biggest hits and solidifies Prabhas as a mass star.</li>
+          <li><b>2006</b>- Vikramarkudu, a police drama with Raviteja playing dual roles as a police officier and a conman becomes the biggest hit of the year and becomes an instant classic among the telugu people. Raviteja performance in  this film is still remembered till date.</li>
+          <li><b>2007</b>- Yamadonga, a socio-fantasy drama provides a relief for NTR jr after huge flops.NTR jr and Mohan Babu performances were hugely acclaimed.</li>
+          <li><b>2009</b>- Magadheera, a fantasy action drama based on reincarnation becomes a sensation and provides breakthrough for the lead actors Ram Charan and Kajal, who would become huge stars in the future</li>
+          <li><b>2010</b>-Maryada Ramanna, a comedy drama based on theme of factionism inspired by Our Hospitality, becomes a sleeper hit and provides breakthrough for Sunil as a lead actor.
+          <li><b>2012</b>-Eega revoles around a person reincarnating as a fly taking revenge was hugely for it's plot and racy screenplay.</li>
+          <li><b>2015</b>-Bahubali,a period drama becomes the biggest sensation of the year. Bahubali becomes the trendestter for pan-Indian films.</li>
+          <li><b>2017</b>-Bahubali-2, sequel to Bahubali becomes the biggest hit of the year and becomes the higgest grossing telugu film of the year.</li>
+          <li><b>2022</b>-RRR, a period drama based on fictional story oFf freedom fighters Komaram Bheem and Aluri Seetha rama raju uniting together and fighting against the british was globally acclaimed. The song Nattu-Nattu wins Oscar.</li>
+          <a href id="tribute-link" target="_blank"="https://en.wikipedia.org/wiki/S._S._Rajamouli"> This is wikipedia for Rajmouli </a> 
+          
+
+
+
+      
+
+        </div>
+        
+      </main>
+ 
+
+    </head>
+    </html>
+      
+    
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  justify-content:center;
+  max-width: 100%;
+}
+img {
+  display:block;
+}
+
+** end of undefined **
+
